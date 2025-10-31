@@ -1,0 +1,16 @@
+- genome: R64-1-1
+  fasta: "https://ftp.ensembl.org/pub/release-108/fasta/saccharomyces_cerevisiae/dna/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.gz"
+  gtf: "https://ftp.ensembl.org/pub/release-108/gtf/saccharomyces_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.108.gtf.gz"
+  source_version: "Ensembl_108"
+  species: "Saccharomyces_cerevisiae"
+  source: "Ensembl"
+  # Add these fields to ensure index generation
+  mito_name: "MT"
+  macs_gsize: 12100000
+- genome: U00096.3
+  fasta: "https://ftp.ensemblgenomes.ebi.ac.uk/pub/release-62/bacteria//fasta/bacteria_117_collection/escherichia_coli_110957_gca_000485615/dna/Escherichia_coli_110957_gca_000485615.ASM48561v1_.dna.toplevel.fa.gz"
+  gtf: "https://ftp.ensemblgenomes.ebi.ac.uk/pub/release-62/bacteria/gtf/bacteria_117_collection/escherichia_coli_110957_gca_000485615/Escherichia_coli_110957_gca_000485615.ASM48561v1.62.gtf.gz"
+  source_version: "Ensembl_62"
+  species: "Escherichia_coli"
+  source: "Ensembl"
+  macs_gsize: 4641652   # approximate genome size in bp for MACS2
