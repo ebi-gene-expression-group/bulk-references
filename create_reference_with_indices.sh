@@ -10,8 +10,9 @@
 source activate /hps/software/users/ma/service/isl/conda/config/envs/nextflow=25.10.0
 
 NXF_ANSI_LOG=false
-
+export NXF_TTY_WIDTH=999
 nextflow run nf-core-references/main.nf \
 	--input datasheet.yaml \
-	--outdir ./references_indices 
-
+	--outdir ./references_indices \
+	--tools "star,salmon,kallisto,faidx,createsequencedictionary,intervals,sizes,tabix" \
+	-with-trace trace.txt
