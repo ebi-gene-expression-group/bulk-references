@@ -13,6 +13,6 @@ NXF_ANSI_LOG=false
 export NXF_TTY_WIDTH=999
 nextflow run nf-core-references/main.nf \
 	--input datasheet.yaml \
-	--outdir ./references_indices \
+	--outdir $BULK_REFERENCE_DIR/test \
 	--tools "star,salmon,kallisto,faidx,createsequencedictionary,intervals,sizes,tabix" \
 	-with-trace trace.txt
