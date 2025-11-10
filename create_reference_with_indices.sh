@@ -7,7 +7,7 @@
 #SBATCH --error=nf-core-references-%j-%x.err
 #SBATCH --partition=production
 
-source activate /hps/software/users/ma/service/isl/conda/config/envs/nextflow=25.10.0
+
 timestamp=$(date +"%Y_%m_%d_%I_%M_%p")
 NXF_ANSI_LOG=false
 export NXF_TTY_WIDTH=999
