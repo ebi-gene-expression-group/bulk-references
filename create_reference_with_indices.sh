@@ -13,11 +13,11 @@ NXF_ANSI_LOG=false
 export NXF_TTY_WIDTH=999
 
 
-i=$1
+export SPECIES=$1
 
 nextflow run nf-core-references/main.nf \
-	--input ${i} \
-	--outdir $BULK_REFERENCES_DIR \
+	--input ${SPECIES} \
+	--outdir ${BULK_REFERENCES_DIR} \
 	--tools "star,salmon,kallisto,faidx,createsequencedictionary,intervals,sizes,tabix" \
-	-with-trace $BULK_REFERENCES_DIR/nf-core-references_trace_$i_$timestamp.txt 
+	-with-trace ${BULK_REFERENCES_DIR}/nf-core-references_trace_${SPECIES}_$timestamp.txt 
 
