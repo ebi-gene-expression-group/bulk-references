@@ -15,7 +15,7 @@ export NXF_TTY_WIDTH=999
 
 export SPECIES=$1
 
-export WORKSUBDIR=basename $SPECIES .yaml
+export WORKSUBDIR=$(basename $SPECIES .yaml)
 
 nextflow run nf-core-references/main.nf \
 	--input ${SPECIES} \
