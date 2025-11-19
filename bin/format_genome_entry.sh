@@ -125,7 +125,7 @@ while IFS= read -r line; do
   fasta: "$fasta_url_mod"
   gtf: "$gtf_url_mod"
   source_version: "${source_name}_${rel}"
-  species: "$species_cap"
+  species: "$species"
   source: "$source_name"
   # Add these fields to ensure index generation
   mito_name: "MT"
