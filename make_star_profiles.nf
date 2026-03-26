@@ -23,29 +23,15 @@ def asLong(row, key, long defaultValue = 0L) {
     return v ? v.toLong() : defaultValue
 }
 
+def asDouble(row, key, double defaultValue = 0.0d) {
+    def v = row[key]?.toString()?.trim()
+    return v ? v.toDouble() : defaultValue
+}
+
 def sanitizeProfileName(String s) {
     s.toLowerCase()
      .replaceAll(/[^a-z0-9]+/, '_')
      .replaceAll(/^_+|_+$/, '')
-}
-
-def suggestMultimap(long genomeSizeBp, long nContigs, long n50Bp) {
-    int mm
-    if (genomeSizeBp < 20_000_000L) {
-        mm = 10
-    } else if (genomeSizeBp < 200_000_000L) {
-        mm = 20
-    } else if (genomeSizeBp < 1_000_000_000L) {
-        mm = 50
-    } else {
-        mm = 100
-    }
-
-    // Fragmented assemblies often benefit from a more permissive cap
-    if (n50Bp < 100_000L || nContigs > 10_000L) {
-        mm = Math.max(mm, 50)
-    }
-    return mm
 }
 
 def roundIntronMax(long proposed) {
@@ -68,18 +54,58 @@ def suggestAlignIntronMax(long maxIntronBp, long p99IntronBp) {
 }
 
 def suggestMotifs(long genomeSizeBp, long maxIntronBp) {
-    // Conservative rule of thumb:
-    // compact/simple genomes with short introns -> RemoveNoncanonical
-    // larger/complex/non-model genomes -> None
     if (genomeSizeBp < 50_000_000L && maxIntronBp > 0L && maxIntronBp < 10_000L) {
         return 'RemoveNoncanonical'
     }
     return 'None'
 }
 
+/*
+Repeat-aware heuristic for outFilterMultimapNmax.
+
+Inputs:
+- genomeSizeBp
+- nContigs
+- n50Bp
+- softmaskedFraction
+
+Interpretation:
+- softmaskedFraction is the primary repeat proxy
+- fragmented assemblies can inflate ambiguity, so bump upward
+- genome size still acts as a weak backstop
+*/
+def suggestMultimap(long genomeSizeBp, long nContigs, long n50Bp, double softmaskedFraction) {
+    int mm
+
+    if (softmaskedFraction >= 0.50d) {
+        mm = 100
+    } else if (softmaskedFraction >= 0.30d) {
+        mm = 50
+    } else if (softmaskedFraction >= 0.15d) {
+        mm = 20
+    } else {
+        mm = 10
+    }
+
+    // Weak genome-size backstop in case masking is absent or minimal
+    if (softmaskedFraction < 0.01d) {
+        if (genomeSizeBp >= 1_000_000_000L) {
+            mm = Math.max(mm, 50)
+        } else if (genomeSizeBp >= 200_000_000L) {
+            mm = Math.max(mm, 20)
+        }
+    }
+
+    // Fragmented assemblies often create extra mapping ambiguity
+    if (n50Bp < 100_000L || nContigs > 10_000L) {
+        mm = Math.max(mm, 50)
+    }
+
+    return mm
+}
+
 workflow {
     def rows = readRows(params.input)
-
     def config = new StringBuilder()
 
     config << "params {\n"
@@ -99,18 +125,19 @@ workflow {
     config << "profiles {\n"
 
     rows.each { row ->
-        String dataset = row['dataset'] ?: 'dataset'
-        String profile = sanitizeProfileName(dataset)
+        String dataset        = row['dataset'] ?: 'dataset'
+        String profile        = sanitizeProfileName(dataset)
 
-        long genomeSizeBp = asLong(row, 'genome_size_bp')
-        long nContigs     = asLong(row, 'n_contigs')
-        long n50Bp        = asLong(row, 'n50_bp')
-        long maxIntronBp  = asLong(row, 'max_intron_bp')
-        long p99IntronBp  = asLong(row, 'p99_intron_bp')
+        long genomeSizeBp     = asLong(row, 'genome_size_bp')
+        long nContigs         = asLong(row, 'n_contigs')
+        long n50Bp            = asLong(row, 'n50_bp')
+        double softmaskedFrac = asDouble(row, 'softmasked_fraction')
+        long maxIntronBp      = asLong(row, 'max_intron_bp')
+        long p99IntronBp      = asLong(row, 'p99_intron_bp')
 
-        int mm            = suggestMultimap(genomeSizeBp, nContigs, n50Bp)
-        int intronMax     = suggestAlignIntronMax(maxIntronBp, p99IntronBp)
-        String motifs     = suggestMotifs(genomeSizeBp, maxIntronBp)
+        int mm                = suggestMultimap(genomeSizeBp, nContigs, n50Bp, softmaskedFrac)
+        int intronMax         = suggestAlignIntronMax(maxIntronBp, p99IntronBp)
+        String motifs         = suggestMotifs(genomeSizeBp, maxIntronBp)
 
         config << "  ${profile} {\n"
         config << "    process {\n"
@@ -130,6 +157,5 @@ workflow {
 
     def out = new File(params.output)
     out.text = config.toString()
-
     println "Wrote ${out.absolutePath}"
 }
