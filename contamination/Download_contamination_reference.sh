@@ -1,6 +1,5 @@
 #!/usr/bin/env bash +x
 set -euo pipefail
-source $ATLAS_PROD/environments/gxa/production.sh
 
 ##############################################################################
 # Download contamination references for nf-core/rnaseq
