@@ -16,9 +16,6 @@ BACT_DIR="$OUTDIR/bacteria_refseq"
 META_DIR="$OUTDIR/metadata"
 MODE="${MODE:-bbsplit}"  # Options: bbsplit, kraken2, both
 
-# Parse arguments
-CONTAMINATION_TYPE="${1:-plant}"  # animal or plant
-
 mkdir -p "$OUTDIR" "$FUNGI_DIR" "$BACT_DIR" "$META_DIR"
 
 # Helper function for downloads
