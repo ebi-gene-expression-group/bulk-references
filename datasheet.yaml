@@ -116,7 +116,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: ASM465v1
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/oryza_indica/dna/Oryza_indica.ASM465v1.dna.toplevel_sm.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/oryza_indica/dna/Oryza_indica.ASM465v1.dna_sm.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/oryza_indica/Oryza_indica.ASM465v1.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "oryza_indica"
