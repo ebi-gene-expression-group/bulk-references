@@ -1,5 +1,5 @@
 - genome: Aet_v4.0
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/aegilops_tauschii/dna/Aegilops_tauschii.Aet_v4.0.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/aegilops_tauschii/dna/Aegilops_tauschii.Aet_v4.0.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/aegilops_tauschii/Aegilops_tauschii.Aet_v4.0.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "aegilops_tauschii"
@@ -8,7 +8,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: v.1.0
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/arabidopsis_lyrata/dna/Arabidopsis_lyrata.v.1.0.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/arabidopsis_lyrata/dna/Arabidopsis_lyrata.v.1.0.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/arabidopsis_lyrata/Arabidopsis_lyrata.v.1.0.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "arabidopsis_lyrata"
@@ -17,7 +17,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: TAIR10
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/arabidopsis_thaliana/dna/Arabidopsis_thaliana.TAIR10.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/arabidopsis_thaliana/dna/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/arabidopsis_thaliana/Arabidopsis_thaliana.TAIR10.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "arabidopsis_thaliana"
@@ -26,7 +26,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: RefBeet-1.2.2
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/beta_vulgaris/dna/Beta_vulgaris.RefBeet-1.2.2.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/beta_vulgaris/dna/Beta_vulgaris.RefBeet-1.2.2.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/beta_vulgaris/Beta_vulgaris.RefBeet-1.2.2.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "beta_vulgaris"
@@ -35,7 +35,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Brachypodium_distachyon_v3.0
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/brachypodium_distachyon/dna/Brachypodium_distachyon.Brachypodium_distachyon_v3.0.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/brachypodium_distachyon/dna/Brachypodium_distachyon.Brachypodium_distachyon_v3.0.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/brachypodium_distachyon/Brachypodium_distachyon.Brachypodium_distachyon_v3.0.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "brachypodium_distachyon"
@@ -44,7 +44,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: AST_PRJEB5043_v1
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/brassica_napus/dna/Brassica_napus.AST_PRJEB5043_v1.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/brassica_napus/dna/Brassica_napus.AST_PRJEB5043_v1.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/brassica_napus/Brassica_napus.AST_PRJEB5043_v1.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "brassica_napus"
@@ -53,7 +53,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: BOL
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/brassica_oleracea/dna/Brassica_oleracea.BOL.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/brassica_oleracea/dna/Brassica_oleracea.BOL.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/brassica_oleracea/Brassica_oleracea.BOL.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "brassica_oleracea"
@@ -62,7 +62,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Brapa_1.0
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/brassica_rapa/dna/Brassica_rapa.Brapa_1.0.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/brassica_rapa/dna/Brassica_rapa.Brapa_1.0.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/brassica_rapa/Brassica_rapa.Brapa_1.0.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "brassica_rapa"
@@ -71,7 +71,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Chlamydomonas_reinhardtii_v5.5
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/chlamydomonas_reinhardtii/dna/Chlamydomonas_reinhardtii.Chlamydomonas_reinhardtii_v5.5.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/chlamydomonas_reinhardtii/dna/Chlamydomonas_reinhardtii.Chlamydomonas_reinhardtii_v5.5.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/chlamydomonas_reinhardtii/Chlamydomonas_reinhardtii.Chlamydomonas_reinhardtii_v5.5.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "chlamydomonas_reinhardtii"
@@ -80,7 +80,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Glycine_max_v2.1
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/glycine_max/dna/Glycine_max.Glycine_max_v2.1.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/glycine_max/dna/Glycine_max.Glycine_max_v2.1.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/glycine_max/Glycine_max.Glycine_max_v2.1.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "glycine_max"
@@ -89,7 +89,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: MorexV3_pseudomolecules_assembly
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/hordeum_vulgare/dna/Hordeum_vulgare.MorexV3_pseudomolecules_assembly.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/hordeum_vulgare/dna/Hordeum_vulgare.MorexV3_pseudomolecules_assembly.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/hordeum_vulgare/Hordeum_vulgare.MorexV3_pseudomolecules_assembly.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "hordeum_vulgare"
@@ -98,7 +98,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: MtrunA17r5.0_ANR
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/medicago_truncatula/dna/Medicago_truncatula.MtrunA17r5.0_ANR.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/medicago_truncatula/dna/Medicago_truncatula.MtrunA17r5.0_ANR.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/medicago_truncatula/Medicago_truncatula.MtrunA17r5.0_ANR.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "medicago_truncatula"
@@ -107,7 +107,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: IRGSP-1.0
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/oryza_sativa/dna/Oryza_sativa.IRGSP-1.0.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/oryza_sativa/dna/Oryza_sativa.IRGSP-1.0.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/oryza_sativa/Oryza_sativa.IRGSP-1.0.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "oryza_sativa"
@@ -116,7 +116,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: ASM465v1
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/oryza_indica/dna/Oryza_indica.ASM465v1.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/oryza_indica/dna/Oryza_indica.ASM465v1.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/oryza_indica/Oryza_indica.ASM465v1.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "oryza_indica"
@@ -125,7 +125,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Prunus_persica_NCBIv2
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/prunus_persica/dna/Prunus_persica.Prunus_persica_NCBIv2.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/prunus_persica/dna/Prunus_persica.Prunus_persica_NCBIv2.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/prunus_persica/Prunus_persica.Prunus_persica_NCBIv2.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "prunus_persica"
@@ -134,7 +134,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Pop_tri_v4
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/populus_trichocarpa/dna/Populus_trichocarpa.Pop_tri_v4.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/populus_trichocarpa/dna/Populus_trichocarpa.Pop_tri_v4.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/populus_trichocarpa/Populus_trichocarpa.Pop_tri_v4.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "populus_trichocarpa"
@@ -143,7 +143,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Setaria_italica_v2.0
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/setaria_italica/dna/Setaria_italica.Setaria_italica_v2.0.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/setaria_italica/dna/Setaria_italica.Setaria_italica_v2.0.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/setaria_italica/Setaria_italica.Setaria_italica_v2.0.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "setaria_italica"
@@ -152,7 +152,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: SL3.0
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/solanum_lycopersicum/dna/Solanum_lycopersicum.SL3.0.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/solanum_lycopersicum/dna/Solanum_lycopersicum.SL3.0.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/solanum_lycopersicum/Solanum_lycopersicum.SL3.0.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "solanum_lycopersicum"
@@ -161,7 +161,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: SolTub_3.0
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/solanum_tuberosum/dna/Solanum_tuberosum.SolTub_3.0.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/solanum_tuberosum/dna/Solanum_tuberosum.SolTub_3.0.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/solanum_tuberosum/Solanum_tuberosum.SolTub_3.0.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "solanum_tuberosum"
@@ -170,7 +170,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Sorghum_bicolor_NCBIv3
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/sorghum_bicolor/dna/Sorghum_bicolor.Sorghum_bicolor_NCBIv3.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/sorghum_bicolor/dna/Sorghum_bicolor.Sorghum_bicolor_NCBIv3.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/sorghum_bicolor/Sorghum_bicolor.Sorghum_bicolor_NCBIv3.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "sorghum_bicolor"
@@ -178,9 +178,9 @@
   # Add these fields to ensure index generation
   mito_name: "MT"
   macs_gsize: 12100000
-- genome: Theobroma_cacao.Criollo_cocoa_genome_V2
-  fasta: "http://ftp.ensemblgenomes.org/pub/plants/release-61/fasta/theobroma_cacao_criollo/dna/Theobroma_cacao_criollo.Criollo_cocoa_genome_V2.dna_sm.toplevel.fa.gz"
-  gtf: "http://ftp.ensemblgenomes.org/pub/plants/release-61/gtf/theobroma_cacao_criollo/Theobroma_cacao_criollo.Criollo_cocoa_genome_V2.61.gtf.gz"
+- genome: Theobroma_cacao_20110822
+  fasta: "http://ftp.ensemblgenomes.org/pub/plants/release-61/fasta/theobroma_cacao/dna/Theobroma_cacao.Theobroma_cacao_20110822.dna.toplevel.fa.gz"
+  gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/theobroma_cacao/Theobroma_cacao.Theobroma_cacao_20110822.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "theobroma_cacao"
   source: "Ensembl"
@@ -188,7 +188,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Trpr
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/trifolium_pratense/dna/Trifolium_pratense.Trpr.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/trifolium_pratense/dna/Trifolium_pratense.Trpr.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/trifolium_pratense/Trifolium_pratense.Trpr.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "trifolium_pratense"
@@ -197,7 +197,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: IWGSC
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/triticum_aestivum/dna/Triticum_aestivum.IWGSC.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/triticum_aestivum/dna/Triticum_aestivum.IWGSC.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/triticum_aestivum/Triticum_aestivum.IWGSC.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "triticum_aestivum"
@@ -206,7 +206,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: IGDB
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/triticum_urartu/dna/Triticum_urartu.IGDB.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/triticum_urartu/dna/Triticum_urartu.IGDB.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/triticum_urartu/Triticum_urartu.IGDB.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "triticum_urartu"
@@ -215,7 +215,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: ASM3070453v1
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/vitis_vinifera/dna/Vitis_vinifera.ASM3070453v1.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/vitis_vinifera/dna/Vitis_vinifera.ASM3070453v1.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/vitis_vinifera/Vitis_vinifera.ASM3070453v1.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "vitis_vinifera"
@@ -224,7 +224,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: WBcel235
-  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/caenorhabditis_elegans/dna/Caenorhabditis_elegans.WBcel235.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/caenorhabditis_elegans/dna/Caenorhabditis_elegans.WBcel235.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/gtf/caenorhabditis_elegans/Caenorhabditis_elegans.WBcel235.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "caenorhabditis_elegans"
@@ -233,7 +233,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Smansoni_v7
-  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/schistosoma_mansoni/dna/Schistosoma_mansoni.Smansoni_v7.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/schistosoma_mansoni/dna/Schistosoma_mansoni.Smansoni_v7.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/gtf/schistosoma_mansoni/Schistosoma_mansoni.Smansoni_v7.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "schistosoma_mansoni"
@@ -242,7 +242,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: ASM874695v1
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/anas_platyrhynchos/dna/Anas_platyrhynchos.ASM874695v1.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/anas_platyrhynchos/dna/Anas_platyrhynchos.ASM874695v1.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/anas_platyrhynchos/Anas_platyrhynchos.ASM874695v1.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "anas_platyrhynchos"
@@ -251,7 +251,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: AnoCar2.0v2
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/anolis_carolinensis/dna/Anolis_carolinensis.AnoCar2.0v2.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/anolis_carolinensis/dna/Anolis_carolinensis.AnoCar2.0v2.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/anolis_carolinensis/Anolis_carolinensis.AnoCar2.0v2.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "anolis_carolinensis"
@@ -260,7 +260,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: GCA000002655v1
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/fungi/fasta/aspergillus_fumigatus/dna/Aspergillus_fumigatus.GCA000002655v1.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/fungi/fasta/aspergillus_fumigatus/dna/Aspergillus_fumigatus.GCA000002655v1.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/fungi/gtf/aspergillus_fumigatus/Aspergillus_fumigatus.GCA000002655v1.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "aspergillus_fumigatus"
@@ -269,7 +269,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: ARS-UCD2.0
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/bos_taurus/dna/Bos_taurus.ARS-UCD2.0.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/bos_taurus/dna/Bos_taurus.ARS-UCD2.0.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/bos_taurus/Bos_taurus.ARS-UCD2.0.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "bos_taurus"
@@ -278,7 +278,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: ROS_Cfam_1.0
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/canis_lupus_familiaris/dna/Canis_lupus_familiaris.ROS_Cfam_1.0.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/canis_lupus_familiaris/dna/Canis_lupus_familiaris.ROS_Cfam_1.0.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/canis_lupus_familiaris/Canis_lupus_familiaris.ROS_Cfam_1.0.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "canis_lupus_familiaris"
@@ -287,7 +287,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: ChlSab1.1
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/chlorocebus_sabaeus/dna/Chlorocebus_sabaeus.ChlSab1.1.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/chlorocebus_sabaeus/dna/Chlorocebus_sabaeus.ChlSab1.1.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/chlorocebus_sabaeus/Chlorocebus_sabaeus.ChlSab1.1.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "chlorocebus_sabaeus"
@@ -296,7 +296,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: GRCz11
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/danio_rerio/dna/Danio_rerio.GRCz11.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/danio_rerio/dna/Danio_rerio.GRCz11.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/danio_rerio/Danio_rerio.GRCz11.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "danio_rerio"
@@ -305,7 +305,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: BDGP6.54
-  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/drosophila_melanogaster/dna/Drosophila_melanogaster.BDGP6.54.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/drosophila_melanogaster/dna/Drosophila_melanogaster.BDGP6.54.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/gtf/drosophila_melanogaster/Drosophila_melanogaster.BDGP6.54.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "drosophila_melanogaster"
@@ -314,7 +314,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Dpse_3.0
-  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/drosophila_pseudoobscura/dna/Drosophila_pseudoobscura.Dpse_3.0.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/drosophila_pseudoobscura/dna/Drosophila_pseudoobscura.Dpse_3.0.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/gtf/drosophila_pseudoobscura/Drosophila_pseudoobscura.Dpse_3.0.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "drosophila_pseudoobscura"
@@ -323,7 +323,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: EquCab3.0
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/equus_caballus/dna/Equus_caballus.EquCab3.0.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/equus_caballus/dna/Equus_caballus.EquCab3.0.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/equus_caballus/Equus_caballus.EquCab3.0.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "equus_caballus"
@@ -332,7 +332,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: bGalGal1.mat.broiler.GRCg7b
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/gallus_gallus/dna/Gallus_gallus.bGalGal1.mat.broiler.GRCg7b.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/gallus_gallus/dna/Gallus_gallus.bGalGal1.mat.broiler.GRCg7b.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/gallus_gallus/Gallus_gallus.bGalGal1.mat.broiler.GRCg7b.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "gallus_gallus"
@@ -341,7 +341,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: GRCh38
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/homo_sapiens/Homo_sapiens.GRCh38.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "homo_sapiens"
@@ -350,7 +350,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Mmul_10
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/macaca_mulatta/dna/Macaca_mulatta.Mmul_10.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/macaca_mulatta/dna/Macaca_mulatta.Mmul_10.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/macaca_mulatta/Macaca_mulatta.Mmul_10.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "macaca_mulatta"
@@ -359,7 +359,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: ASM229v1
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/monodelphis_domestica/dna/Monodelphis_domestica.ASM229v1.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/monodelphis_domestica/dna/Monodelphis_domestica.ASM229v1.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/monodelphis_domestica/Monodelphis_domestica.ASM229v1.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "monodelphis_domestica"
@@ -368,7 +368,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Musa_acuminata_v2
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/musa_acuminata/dna/Musa_acuminata.Musa_acuminata_v2.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/musa_acuminata/dna/Musa_acuminata.Musa_acuminata_v2.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/musa_acuminata/Musa_acuminata.Musa_acuminata_v2.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "musa_acuminata"
@@ -377,7 +377,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: GRCm39
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/mus_musculus/dna/Mus_musculus.GRCm39.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/mus_musculus/Mus_musculus.GRCm39.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "mus_musculus"
@@ -386,7 +386,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: OryCun2.0
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/oryctolagus_cuniculus/dna/Oryctolagus_cuniculus.OryCun2.0.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/oryctolagus_cuniculus/dna/Oryctolagus_cuniculus.OryCun2.0.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/oryctolagus_cuniculus/Oryctolagus_cuniculus.OryCun2.0.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "oryctolagus_cuniculus"
@@ -395,7 +395,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Oar_v3.1
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/ovis_aries/dna/Ovis_aries.Oar_v3.1.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/ovis_aries/dna/Ovis_aries.Oar_v3.1.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/ovis_aries/Ovis_aries.Oar_v3.1.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "ovis_aries"
@@ -404,7 +404,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Panubis1.0
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/papio_anubis/dna/Papio_anubis.Panubis1.0.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/papio_anubis/dna/Papio_anubis.Panubis1.0.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/papio_anubis/Papio_anubis.Panubis1.0.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "papio_anubis"
@@ -413,7 +413,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: GRCr8
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/rattus_norvegicus/dna/Rattus_norvegicus.GRCr8.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/rattus_norvegicus/dna/Rattus_norvegicus.GRCr8.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/rattus_norvegicus/Rattus_norvegicus.GRCr8.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "rattus_norvegicus"
@@ -422,7 +422,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: R64-1-1
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/fungi/fasta/saccharomyces_cerevisiae/dna/Saccharomyces_cerevisiae.R64-1-1.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/fungi/fasta/saccharomyces_cerevisiae/dna/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/fungi/gtf/saccharomyces_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "saccharomyces_cerevisiae"
@@ -431,7 +431,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: ASM294v2
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/fungi/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/fungi/fasta/schizosaccharomyces_pombe/dna/Schizosaccharomyces_pombe.ASM294v2.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/fungi/gtf/schizosaccharomyces_pombe/Schizosaccharomyces_pombe.ASM294v2.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "schizosaccharomyces_pombe"
@@ -440,7 +440,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Sscrofa11.1
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/sus_scrofa/dna/Sus_scrofa.Sscrofa11.1.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/sus_scrofa/dna/Sus_scrofa.Sscrofa11.1.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/sus_scrofa/Sus_scrofa.Sscrofa11.1.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "sus_scrofa"
@@ -449,7 +449,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: UCB_Xtro_10.0
-  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/xenopus_tropicalis/dna/Xenopus_tropicalis.UCB_Xtro_10.0.dna_sm.toplevel.fa.gz"
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/xenopus_tropicalis/dna/Xenopus_tropicalis.UCB_Xtro_10.0.dna.toplevel.fa.gz"
   gtf: "https://ftp.ensembl.org/pub/release-114/gtf/xenopus_tropicalis/Xenopus_tropicalis.UCB_Xtro_10.0.114.gtf.gz"
   source_version: "Ensembl_114"
   species: "xenopus_tropicalis"
@@ -458,7 +458,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: Zm-B73-REFERENCE-NAM-5.0
-  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/zea_mays/dna/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/zea_mays/dna/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/zea_mays/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "zea_mays"
@@ -467,7 +467,7 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: AgamP4
-  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/anopheles_gambiae/dna/Anopheles_gambiae.AgamP4.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/anopheles_gambiae/dna/Anopheles_gambiae.AgamP4.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/gtf/anopheles_gambiae/Anopheles_gambiae.AgamP4.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "anopheles_gambiae"
@@ -476,10 +476,28 @@
   mito_name: "MT"
   macs_gsize: 12100000
 - genome: dicty_2.7
-  fasta: "http://ftp.ensemblgenomes.org/pub/protists/release-61/fasta/dictyostelium_discoideum/dna/Dictyostelium_discoideum.dicty_2.7.dna_sm.toplevel.fa.gz"
+  fasta: "http://ftp.ensemblgenomes.org/pub/protists/release-61/fasta/dictyostelium_discoideum/dna/Dictyostelium_discoideum.dicty_2.7.dna.toplevel.fa.gz"
   gtf: "http://ftp.ensemblgenomes.org/pub/protists/release-61/gtf/dictyostelium_discoideum/Dictyostelium_discoideum.dicty_2.7.61.gtf.gz"
   source_version: "Ensembl_61"
   species: "dictyostelium_discoideum"
+  source: "Ensembl"
+  # Add these fields to ensure index generation
+  mito_name: "MT"
+  macs_gsize: 12100000
+- genome: Phypa_V3
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/physcomitrium_patens/dna/Physcomitrium_patens.Phypa_V3.dna.toplevel.fa.gz"
+  gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/physcomitrium_patens/Physcomitrium_patens.Phypa_V3.61.gtf.gz"
+  source_version: "Ensembl_61"
+  species: "physcomitrium_patens"
+  source: "Ensembl"
+  # Add these fields to ensure index generation
+  mito_name: "MT"
+  macs_gsize: 12100000
+- genome: Amel_HAv3.1
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/metazoa/fasta/apis_mellifera/dna/Apis_mellifera.Amel_HAv3.1.dna.toplevel.fa.gz"
+  gtf: "http://ftp.ensemblgenomes.org/pub/release-61/metazoa/gtf/apis_mellifera/Apis_mellifera.Amel_HAv3.1.61.gtf.gz"
+  source_version: "Ensembl_61"
+  species: "apis_mellifera"
   source: "Ensembl"
   # Add these fields to ensure index generation
   mito_name: "MT"
