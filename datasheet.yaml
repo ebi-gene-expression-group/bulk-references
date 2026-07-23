@@ -502,3 +502,12 @@
   # Add these fields to ensure index generation
   mito_name: "MT"
   macs_gsize: 12100000
+- genome: iyBomTerr1.2
+  fasta: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/fasta/bombus_terrestris_gca910591885v2/dna/Bombus_terrestris_gca910591885v2.iyBomTerr1.2.dna.toplevel.fa.gz"
+  gtf: "http://ftp.ensemblgenomes.org/pub/metazoa/release-61/gtf/bombus_terrestris_gca910591885v2/Bombus_terrestris_gca910591885v2.iyBomTerr1.2.61.gtf.gz"
+  source_version: "Ensembl_61"
+  species: "bombus_terrestris_gca910591885v2"
+  source: "Ensembl"
+  # Add these fields to ensure index generation
+  mito_name: "MT"
+  macs_gsize: 12100000
