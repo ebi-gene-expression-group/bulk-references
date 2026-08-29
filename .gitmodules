@@ -1,0 +1,4 @@
+[submodule "nf-core-references"]
+	path = nf-core-references
+	url = https://github.com/nf-core/references.git
+	branch = dev
