@@ -14,7 +14,11 @@ NXF_ANSI_LOG=false
 export NXF_TTY_WIDTH=999
 
 
-SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+# Slurm executes a submitted script from a temporary spool copy, so
+# BASH_SOURCE[0] is not the repository path. Prefer the directory from which
+# sbatch was submitted and retain the local-script fallback for direct runs.
+SCRIPT_DIR=${SLURM_SUBMIT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}
+cd "${SCRIPT_DIR}"
 
 # Preserve the historical reference build by default. Set this to true when
 # generating the separate STAR index required by Parabricks rna_fq2bam.
