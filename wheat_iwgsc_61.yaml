@@ -1,0 +1,9 @@
+- genome: IWGSC
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/triticum_aestivum/dna/Triticum_aestivum.IWGSC.dna.toplevel.fa.gz"
+  gtf: "http://ftp.ensemblgenomes.org/pub/release-61/plants/gtf/triticum_aestivum/Triticum_aestivum.IWGSC.61.gtf.gz"
+  source_version: "Ensembl_61"
+  species: "triticum_aestivum"
+  source: "Ensembl"
+  # Add these fields to ensure index generation
+  mito_name: "MT"
+  macs_gsize: 12100000
