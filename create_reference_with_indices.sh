@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 #SBATCH --job-name=nf-core-references
 #SBATCH --time=07-00:00:00
 #SBATCH --cpus-per-task=8
@@ -13,13 +14,29 @@ NXF_ANSI_LOG=false
 export NXF_TTY_WIDTH=999
 
 
+SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+
+# Preserve the historical reference build by default. Set this to true when
+# generating the separate STAR index required by Parabricks rna_fq2bam.
+PARABRICKS_STAR_INDEX=${PARABRICKS_STAR_INDEX:-false}
+
+if [[ $# -ne 1 ]]; then
+	echo "Usage: $0 <species-yaml>" >&2
+	exit 2
+fi
+
 export SPECIES=$1
 
 export WORKSUBDIR=$(basename $SPECIES .yaml)
+
+nextflow_config_args=()
+if [[ "${PARABRICKS_STAR_INDEX,,}" == "true" ]]; then
+	nextflow_config_args=(-c "${SCRIPT_DIR}/parabricks.config")
+fi
 
 nextflow run nf-core-references/main.nf \
 	--input ${SPECIES} \
 	--outdir ${BULK_REFERENCES_DIR} \
 	--tools "star,salmon,kallisto,faidx,createsequencedictionary,intervals,sizes,tabix" \
+	"${nextflow_config_args[@]}" \
 	-with-trace ${BULK_REFERENCES_DIR}/nf-core-references_trace_${SPECIES}_$timestamp.txt 
-
