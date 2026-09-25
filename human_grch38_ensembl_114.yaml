@@ -1,0 +1,8 @@
+- genome: GRCh38
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.toplevel.fa.gz"
+  gtf: "https://ftp.ensembl.org/pub/release-114/gtf/homo_sapiens/Homo_sapiens.GRCh38.114.gtf.gz"
+  source_version: "Ensembl_114"
+  species: "homo_sapiens"
+  source: "Ensembl"
+  mito_name: "MT"
+  macs_gsize: 12100000

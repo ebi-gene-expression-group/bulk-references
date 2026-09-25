@@ -1,0 +1,8 @@
+- genome: TAIR10
+  fasta: "http://ftp.ensemblgenomes.org/pub/release-61/plants/fasta/arabidopsis_thaliana/dna/Arabidopsis_thaliana.TAIR10.dna.toplevel.fa.gz"
+  gtf: "http://ftp.ensemblgenomes.org/pub/release-61/gtf/arabidopsis_thaliana/Arabidopsis_thaliana.TAIR10.61.gtf.gz"
+  source_version: "Ensembl_61"
+  species: "arabidopsis_thaliana"
+  source: "Ensembl"
+  mito_name: "MT"
+  macs_gsize: 12100000
