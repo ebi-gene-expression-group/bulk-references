@@ -1,0 +1,8 @@
+- genome: GRCz11
+  fasta: "https://ftp.ensembl.org/pub/release-114/fasta/danio_rerio/dna/Danio_rerio.GRCz11.dna.toplevel.fa.gz"
+  gtf: "https://ftp.ensembl.org/pub/release-114/gtf/danio_rerio/Danio_rerio.GRCz11.114.gtf.gz"
+  source_version: "Ensembl_114"
+  species: "danio_rerio"
+  source: "Ensembl"
+  mito_name: "MT"
+  macs_gsize: 12100000
